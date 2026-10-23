@@ -3,7 +3,8 @@
 ```diff
 - WARNING! -
 
-This repository is a work in progress. It builds a matching program, but the naming and documentation are not complete, so the code may still change a lot at any time.
+This repository is a work in progress. It builds a matching program, but the naming and
+documentation are not complete, so the code may still change a lot at any time.
 ```
 
 This is a **decompilation** of ***Link: The Faces of Evil*** ((Philips CD-i, 1993)). The purpose of the project is to recreate a source code base for the game's main program, `cdi_link`, using information found inside the game. **It is not producing a PC port.** The C code compiles back into the exact original program, using the same compiler the game was built with: Apple MPW C 3.0.
