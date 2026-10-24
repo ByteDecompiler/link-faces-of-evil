@@ -73,7 +73,7 @@ void sprite_hits_tool(unsigned char tool_idx, char skip)
         }
     }
     if (result == 4) /* not enough rubies */
-        game_won = 10; /* cutscene 10 (?) */
+        game_won = 10; /* Morshu Refuses Sale */
     if (result == 1 || result == 2) {
         tools[tool_idx].state = 0xff;
         tools[tool_idx].mode = 1;

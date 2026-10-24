@@ -65,7 +65,7 @@ void do_mmenu_code(void)
             pt_pos(video_path, pointer_x << 1, pointer_y << 1);
             old_pointer_x = pointer_x;
             old_pointer_y = pointer_y;
-            if (play_animation(0x35)) {
+            if (play_animation(0x35)) {    /* Tutorial */
                 set_ov_help_off();
                 help_aborted = 1;
                 do_mmenu_code();
